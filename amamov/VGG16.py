@@ -10,8 +10,6 @@ import torch.nn.functional as F
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
-import glob
-from PIL import Image
 
 
 class VGG(nn.Module):
