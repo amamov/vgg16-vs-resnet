@@ -33,7 +33,6 @@ class VGG(nn.Module):
                 m.weight.data.normal_(0, math.sqrt(2. / n))
                 m.bias.data.zero_()
 
-
     def forward(self, x):
         x = self.features(x)
         x = x.view(x.size(0), -1)
@@ -41,18 +40,13 @@ class VGG(nn.Module):
         return x
 
 
-
-
 class Machine:
-
     '''
     dataset : cifar10
     model : VGG16
     '''
-
     BASE_DIR = "/content/mai_drive/MyDrive/deep_learning"
     DATASETS_DIR = f'{BASE_DIR}/datasets'
-
 
     def __init__(self, batch_size=64, epoch_size=1):
         self.batch_size = batch_size
@@ -63,7 +57,6 @@ class Machine:
         self.model.to(self.device)
         self.criterion = nn.CrossEntropyLoss() 
         self.optimizer = optim.SGD(self.model.parameters(), lr=0.01, momentum=0.5)
-
 
     def get_data(self):
         normalize = transforms.Normalize(
