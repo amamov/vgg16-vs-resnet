@@ -1,3 +1,0 @@
-# zimini
-
-fdjsklfjd
