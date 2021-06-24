@@ -1,4 +1,4 @@
-# vgg16-vs-resnet
+# vgg16-vs-resnet 토이 프로젝트
 
 > 기존의 전통적인 CNN 모델인 VGG16과 ResNet 리뷰 및 성능 비교 분석.
 
@@ -14,7 +14,6 @@
   - 논문 링크 : [https://arxiv.org/pdf/1409.1556.pdf](https://arxiv.org/pdf/1409.1556.pdf)
 - `ResNet` :
   - 논문 링크 : [Deep Residual Learning for Image Recognition](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-  - 유투브 논문 리뷰 : [https://www.youtube.com/watch?v=671BsKl8d0E](https://www.youtube.com/watch?v=671BsKl8d0E)
 
 ## 협업 툴
 
